@@ -16,17 +16,20 @@
         </nav>
       </header>
       <main>
-            <h1>Last Three Days</h1>
+            <h3>Last Three Days</h3>
             
 
         <hr>
+
+        <section>
+
 
         <h2 id="dOne">Day One</h2>
         <h4>04/09/2021</h4>
 
         <img
-              src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502"
-              alt="pancake"
+              src="https://cdn.onebauer.media/one/media/605b/69a9/dbf2/7f24/48f5/9560/godzilla-vs-kong.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill"
+              alt="kong"
               width="250"
             />
 
@@ -47,11 +50,14 @@
                         <summary>!!Spoiler Alert!!</summary>
                         The two things I disliked about the movie were:
                         The design of Mechagodzilla, and the boring human characters.
-                        
+
                     </details>
+
             </p>
 
         <hr>
+
+            </section>
 
         <h2 id="dTwo">Day Two</h2>
       
@@ -68,9 +74,20 @@
         <p>
           Honestly pretty tired today from staying up late last night. Ready Player One 
         was not that great. <br>It just felt like a major corporation flexing all the properties
-        they have access too.
+        they have access to. <br>
+        I've also been practicing how to juggle this past week, 
+        and I've been getting better each day.
         </p>
-        
+        <figure>
+            <figcaption>Here's just a <em>little guy</em> I saw online</figcaption>
+        <video controls width="250">
+
+                <source src="chew.mp4"
+                        type="video/mp4">
+            
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+        </figure>
         <hr>
 
         <h2 id="dThree">Day Three</h2>
@@ -83,9 +100,69 @@
         <p>
           Looks like my weekends are 
           gonna be busy this quarter since I've got stuff due for 
-          two classes on Sunday and another class due on Monday.
+          two classes on Sunday and another class due on Monday. Bearing in mind
+          Prof's discussion on multitasking, I find music to be pretty helpful
+          when working. Gotta be careful though, can only listen to certain kinds
+          to actually be able to focus and not end up jamming to the music lol.
+          Aphex Twin is an ambient music artist who is in my regular rotation 
+          for study music.
+          <figure>
+                <figcaption>Here's a track by Aphex Twin called <i>Just Sleep</i>:</figcaption>
+                <audio
+                    controls
+                    src="afx.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </figure>
         </p>
 
+        <form action="" method="get" class="form-example">
+                <div class="form-example">
+                  <label for="name">Enter your name: </label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                  <label for="date">Enter the date: </label>
+                  <input type="date" name="date" id="date" required>
+                </div>
+                <div class="form-example">
+                  <input type="submit" value="Confirm">
+                </div>
+
+                <fieldset>
+                        <legend>How are you feeling</legend>
+                    
+                        <input type="radio" id="happy" name="mood">
+                        <label for="happy">happy</label><br/>
+                    
+                        <input type="radio" id="sad" name="mood">
+                        <label for="sad">Sad</label><br/>
+                    
+                        <input type="radio" id="tired" name="mood">
+                        <label for="tired">tired</label>
+                      </fieldset>
+              </form>
+
+              <label for="story">Vent a little:</label> <br>
+
+                <textarea id="story" name="story"
+                 rows="5" cols="33">Where to start...
+                </textarea>
+
+                <br>
+                <button class="favorite styled"
+                    type="button">
+                    Click for nothing
+                </button>
+                
+
       </main>
+
+      <footer>
+            <br />
+            <div>Andrew Martinez A15669097</div>
+          </footer>
+
 </body>
 </html>
